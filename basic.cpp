@@ -11,4 +11,4 @@ int main()
     cout<<"\nenter value b :";
     cin>>b;
     cout<<"product is : "<<a*b;
-}
+}//yes

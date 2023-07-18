@@ -10,7 +10,7 @@ class Test{
     void schedual(){
         cout<<"Enter Test Code : ";
         cin>>testCode;
-        cout<<"Description : ";
+        cout<<"Description : ";  // yes
         cin>>description;
         cout<<"No. Of Candidate : ";
         cin>>noCandidate;

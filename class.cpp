@@ -26,3 +26,4 @@ int main()
     z.hello();
     z.getI();
 }
+// yes no

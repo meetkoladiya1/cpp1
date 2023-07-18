@@ -22,7 +22,8 @@ class flight
         {
             Fuel = 2200;
         }
-    }
+    } // yes
+    
 
     public:
     void  FEEDINFO() 

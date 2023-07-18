@@ -35,7 +35,7 @@ class book
     }
 
 };
-
+// yes
 int main()
 {
     book b;
