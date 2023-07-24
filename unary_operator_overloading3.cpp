@@ -11,12 +11,12 @@ int getdata()
     {
         return l*b*h;
     }
-    Box operator++(int)
+    Box operator++()
     {
         Box t;
-        t.l=l++;
-        t.b=b++;
-        t.h=h++;
+        t.l=++l;
+        t.b=++b;
+        t.h=++h;
         return t;
     }
 };
@@ -26,9 +26,8 @@ int main()
     Box a,b;
     a.setdata(2,3,4);
     cout<<"volume of box A is :"<<a.getdata()<<endl;
-    
-    a++;
-    b = a;
+   
+    b =++ a;
     cout<<"volume of box B is :"<<b.getdata()<<endl;
 
 }
