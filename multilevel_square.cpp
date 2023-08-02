@@ -1,35 +1,42 @@
 #include<iostream>
 using namespace std;
-class req{
+class square1
+{
+    protected:
     int a;
+    public:
+    void testA()
+    {}
+};
+class square2 : public square1
+{
     protected:
     int b;
     public:
-    void test()
+    void testB()
     {}
 };
 
-class derived : public req
+class derived : public square2
 {
     public:
-    int getdata()       
+    int getdata()
     {
         int i,n;
         cout<<"enter value n ";
         cin>>n;
-        if(i%2==0)
-        {
-            cout<<"\t"<<i*i;
-        }
-        else
+
+        for(i=0; i<=n; i++)
         {
             cout<<"\t"<<i;
+            cout<<"\t"<<i*i;
         }
     }
 };   
 int main()
 {
     derived m;
-    m.test();
+    //m.testA();
+    //m.testB();
     m.getdata();
 }
