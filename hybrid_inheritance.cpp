@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+class base{
+    protected:
+    int n;
+    public:
+    void setN(int a)
+    {
+        n=a;
+    }
+};
+class derived1 : public base{
+    protected:
+    int m;
+    public:
+    void setM(int b)
+    {
+        m=b;
+    }
+};
+class derived2
+{
+    protected:
+    int a;
+    public:
+    void setA(int b)
+    {
+        a=b;
+    }
+};
+class ABC : public derived1,public derived2
+{
+    public:
+    void product()
+    {
+        cout<<"product of a,m and n is:c "<<a*m*n<<endl;
+    }
+};
+
+int main()
+{
+    ABC z;
+    z.setA(5);
+    z.setM(10);
+    z.setN(15);
+    z.product();
+}

@@ -23,11 +23,11 @@ class derived : public factorial1,public factorial2
 
         cout<<"ENter any number ";
         cin>>value;
-         for(i=1;i<=value;i++)
+        for(i=1;i<=value;i++)
         {    
-         fact=fact*i;    
+        fact=fact*i;    
         }    
-  cout<<"Factorial of " <<value<<" is: "<<fact<<endl;  
+        cout<<"Factorial of value is: "<<fact<<endl;  
     }    
 };
 int main()
