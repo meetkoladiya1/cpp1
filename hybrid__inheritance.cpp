@@ -33,7 +33,7 @@ class ABC : public derived1,public derived2
     public:
     void product()
     {
-        cout<<"product of a,m and n is:c "<<a*m*n<<endl;
+        cout<<"product of a,m and n is: "<<a*m*n<<endl;
     }
 };
 

@@ -29,7 +29,7 @@ class derived : public factorial2
         {    
          fact=fact*i;    
         }    
-  cout<<"Factorial of " <<value<<" is: "<<fact<<endl;  
+        cout<<"Factorial of " <<value<<" is: "<<fact<<endl;  
     }    
 };
 int main()

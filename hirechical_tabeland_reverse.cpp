@@ -12,7 +12,7 @@ class derived1 : public base{
     void table()
     {
         int i,n;
-        cout<<"Enter value n: "<<endl;
+        cout<<"Enter n value: "<<endl;
         cin>>n;
         for(i=1; i<=10; i++)
         {
